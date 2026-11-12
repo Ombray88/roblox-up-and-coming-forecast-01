@@ -1,3 +1,6 @@
+# Roblox v3 forecaster - rebuilt with Gemini CLI
+# Jump-diffusion latent-score model
+# Chunk A
 #!/usr/bin/env python3
 """Roblox Up-and-Coming top-10 forecaster (make.fun roblox-up-and-coming-forecast-01).
 
@@ -258,6 +261,7 @@ def main():
         if len(pts2) < 2:
             drift[u] = 0.0
             continue
+# Chunk B - appended via Gemini CLI
         num = 0.0
         den = 0.0
         for (t1, r1), (t2, r2) in zip(pts2, pts2[1:]):
@@ -387,3 +391,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+# Chunk C - appended via Gemini CLI
