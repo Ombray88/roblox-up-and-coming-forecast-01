@@ -1,6 +1,7 @@
 # Roblox v3 forecaster - rebuilt with Gemini CLI
 # Jump-diffusion latent-score model
 # Chunk A
+# This script forecasts top-10 Roblox up-and-coming experiences using a jump-diffusion Monte-Carlo model.
 #!/usr/bin/env python3
 """Roblox Up-and-Coming top-10 forecaster (make.fun roblox-up-and-coming-forecast-01).
 
@@ -391,4 +392,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+# The entry rebuild is complete.
 # Chunk C - appended via Gemini CLI
